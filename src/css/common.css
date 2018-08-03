@@ -1,0 +1,187 @@
+#uiSlideTabNav.bui-nav>[class*=bui-btn]{
+	color: #e8e8e8;
+	background: transparent;
+	border: none;
+	font-size: 0.26rem;
+}
+#uiSlideTabNav.bui-nav>.active{
+	color: white;
+	font-size: 0.28rem;
+	border-bottom: 0.01rem solid white;
+}
+.icon-face{
+	display: block;
+	font-size: .6rem;
+	line-height: .7rem
+}
+.bui-progress{
+	margin-bottom: .1rem;
+	height: 0.05rem;
+}
+.bui-progress .bui-progress-cell{
+	background: rgb(0,114,198);
+}
+.circle{
+	border-radius: .4rem;
+	width: .8rem;
+	height: .8rem;
+	border:0.03rem solid #666;
+	position: absolute;
+	top: -0.18rem;
+}
+.top-list [class*=bui-btn] .icon{
+    color: rgb(0,114,198);
+    height: 0.7rem;
+    width: 0.7rem;
+    font-size:.6rem; 
+    margin-top: 0.1rem;
+}
+.top-list{
+    background: #fff;
+    margin-bottom: 0.1rem;
+}
+/* 快捷入口导航 */
+    .shortcut-nav{
+        background: #fff;
+        border-bottom: 0.01rem solid #e8e8e8;
+    }
+    .top-list .bui-btn>div.span4,
+    .shortcut-nav .bui-btn>div.span4{
+    	color: #666;
+    }
+    .top-list .bui-btn>div.count{
+        color: grey;
+        margin-top: 0.1rem;
+    }
+    .shortcut-nav [class*=bui-btn]{
+        padding: 0.15rem 0;
+        border: none;
+    }
+    .shortcut-nav [class*=bui-btn] .icon{
+        color: #ffffff;
+        height: 0.7rem;
+        width: 0.7rem;
+        border-radius: 50%;
+        line-height: 0.7rem;
+        margin: 0.1rem 0;
+        font-size: .5rem;
+    }
+    .short1{
+        background-color: rgb(254,189,11);
+    }
+    .short2{
+        background-color: rgb(42,205,160);
+    }
+    .short3{
+        background-color: rgb(51,181,245);
+    }
+    .short4{
+        background-color: rgb(233,108,232);
+    }
+    .short5{
+        background-color: rgb(255,101,101);
+    }
+    .short6{
+        background-color: rgb(255,131,43);
+    }
+
+    .bui-tab .bui-nav li{
+    	border-bottom: none;
+    }
+
+    #slideNote{
+        background: #fff;
+    }
+    .bui-slide-note .bui-slide-main ul li{ 
+        padding-left: .5rem; 
+    }
+    .bui-slide-note .bui-slide-main .note-item{ 
+        line-height: 40px; 
+    } 
+    .bui-slide-note:before {
+        font-family: "icon" !important; 
+        display: inline-block; 
+        content: "\e63f";
+        font-size: .3rem; 
+        position: absolute; 
+        top: 50%; 
+        left: .2rem; 
+        margin-top: -.17rem; 
+    } 
+    .bui-slide-note .icon-listright { 
+        margin-right: .2rem; 
+    } 
+    .note-item{
+        padding-right: .2rem; 
+    }
+    .note-item .span1{ 
+        text-overflow: ellipsis; 
+        overflow: hidden; 
+        white-space: nowrap; 
+    } 
+
+    .bui-page{
+        /*transform: translate(4.2rem, 0rem);*/
+    }
+
+    .bui-searchbar{
+        background: transparent;
+    }
+    .bui-searchbar .bui-input{
+        background: rgba(0,0,0,0.2);
+    }
+
+    .bui-bar-right .searchName{
+        font-size:0.28rem;
+        color: #fff; 
+        line-height: 0.6rem;
+        margin-right: 0.1rem 
+    }
+    .sortLink{
+        font-size: 0.26rem;
+        color: #666;
+        margin-right: 0.2rem;
+    }
+    .hot-search{
+        padding: 0.1rem;
+        background-color: #fff;
+        border-bottom: 0.01rem solid #e8e8e8;
+    }
+    .hot-search span{
+        display: inline-block;
+        font-size: 0.26rem;
+        padding: 0.1rem;
+        border:0.01rem solid #666;
+        color: #666;
+        border-radius: 0.3rem;
+        margin:0.1rem;
+        margin-right: 0;
+    }
+    .hot-search span.active{
+        border:0.01rem solid rgb(0,114,198);
+        color: rgb(0,114,198);
+
+    }
+
+    .ground{
+        margin-top: 0.2rem;
+    }
+
+    .menu-top{
+        /*height: 1.5rem;*/
+        padding: 0.2rem 0.3rem;
+        border-bottom: 0.01rem solid #e8e8e8;
+    }
+    .menu-top .circle{
+        top: 0.1rem;
+    }
+    .menu-top span{
+        position: relative;
+        top: 0.15rem;
+        left: 1rem;
+    }
+
+    .noBottomLine.bui-list>[class*=bui-btn]{
+        border-bottom: none;
+    }
+    
