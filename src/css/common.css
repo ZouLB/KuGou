@@ -169,19 +169,22 @@
 
     .menu-top{
         /*height: 1.5rem;*/
-        padding: 0.2rem 0.3rem;
+        padding: 0.6rem 0.3rem;
         border-bottom: 0.01rem solid #e8e8e8;
     }
     .menu-top .circle{
-        top: 0.1rem;
+        top: 0.2rem;
     }
     .menu-top span{
         position: relative;
-        top: 0.15rem;
+        top: -0.1rem;
         left: 1rem;
     }
 
     .noBottomLine.bui-list>[class*=bui-btn]{
         border-bottom: none;
+    }
+    .noBottomLine.bui-list>.bottomLine{
+        border-bottom: 1px solid #e8e8e8;
     }
     

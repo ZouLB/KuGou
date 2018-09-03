@@ -38,6 +38,12 @@ loader.define(function(require,exports,module) {
     $(".loginLink").on("click",function () {
         router.load({url:"login"});
     })
+    var uiSlideTab = bui.slide({
+        id:"#uiSlideLook",
+        menu:".tabHeadLook",
+        children:".tabMainLook > ul",
+        scroll: true
+    })
 
     var uiSlideTab = bui.slide({
         id:"#uiSlideSing",
@@ -48,7 +54,7 @@ loader.define(function(require,exports,module) {
 
     var uiList = bui.list({
         id: "#uiScrollList",
-        url: "",
+        url: "userlist.json",
         data: {},
         template: template,
         onLoad: function (scroll) {
@@ -63,7 +69,7 @@ loader.define(function(require,exports,module) {
         field: {
             page: "page",        // 分页字段
             size: "pageSize",    // 页数字段
-            data: "data"         // 数据
+            data: ""         // 数据
         }
     });
     
